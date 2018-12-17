@@ -1,4 +1,4 @@
-package hours24.mpr;
+package hours24;
 
 import java.time.*;
 import java.time.temporal.*;

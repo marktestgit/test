@@ -1,4 +1,4 @@
-package hours24.mpr;
+package hours24;
 
 public class Testy24 {
 
