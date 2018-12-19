@@ -12,7 +12,9 @@ public class clock {
 		int day = now.get(ChronoField.DAY_OF_MONTH);
 		int year = now.get(ChronoField.YEAR);
 		
-		System.out.println((hour < 18) ? "Dzieñ dobry. \n" : "Dobry wieczór. \n");
+		
+		// Clock
+		System.out.println((hour < 18) ? "DzieÅ„ dobry. \n" : "Dobry wieczÃ³r. \n");
 		
 		if (minute != 0) {
 			if(minute == 1) {
@@ -22,7 +24,7 @@ public class clock {
 			} else if (minute % 10 < 2){
 				System.out.print("Jest " + minute + " minuta");
 			} else if (minute % 10 < 5) {
-				System.out.print("S¹ " + minute + " minuty");
+				System.out.print("SÄ… " + minute + " minuty");
 			} else {
 				System.out.print("Jest " + minute + " minut");
 			}
@@ -53,9 +55,9 @@ public class clock {
 		case 8:
 			System.out.print("sierpnia");
 		case 9:
-			System.out.print("wrzeœnia");
+			System.out.print("wrzeÅ›nia");
 		case 10:
-			System.out.print("paŸdziernika");
+			System.out.print("paÅºdziernika");
 		case 11:
 			System.out.print("listopada");
 		case 12:
